@@ -1,0 +1,176 @@
+body {
+  height: 100%;
+  background:url(../img/bg-00.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Links */
+a, a:focus, a:hover {
+  color: #fff;
+}
+
+/* Button */
+.btn-default, .btn-default:hover, .btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Container */
+.site-container {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+/* Inner container */
+.site-container-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+/* Container */
+.margin-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container */
+.custom-container {
+  padding: 0 20px;
+}
+/* Container button */
+.custom-container .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/* Masthead brand */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Masthead nav inline */
+.masthead-nav > li {
+  display: inline-block;
+}
+/* Masthead nav spacing */
+.masthead-nav > li + li {
+  margin-left: 5px;
+}
+/* Masthead nav style */
+.masthead-nav > li > a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+/* Masthead nav hover/focus */
+.masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+/* Masthead nav active */
+.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* Mastfoot */
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+  text-align: left;
+}
+
+/* Table */
+.custom-table {
+  border-radius: 3px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-size: 14px;
+  font-weight: bold;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(255,255,255,.25);
+}
+
+/* Empty Space */
+.custom-space {
+  min-height: 60px;
+}
+
+/* Map */
+.custom-map {
+  width: 240px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.custom-icon {
+  font-size: 24px;
+}
+
+/* Large screen */
+@media (min-width: 768px) {
+  /* Masthead float */
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+  /* Center container */
+  .site-container-inner {
+    vertical-align: middle;
+  }
+  /* Widths */
+  .masthead, .mastfoot, .margin-container {
+    width: 100%; 
+  }
+  .custom-map {
+    width: 380px;
+  }
+}
+
+/* X-Large screen */
+@media (min-width: 992px) {
+  .masthead,  .mastfoot,  .margin-container {
+    width: 700px;
+  }
+}
+
+/* ID */
+#by {
+  font-size: 24px;
+  font-family: 'Herr Von Muellerhoff', cursive;
+}
+
+#name {
+  font-size: 40px;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  color: #FF0DFF;
+}
+
+#image-slider {
+  margin-left:auto;
+  margin-right:auto;
+  width: 306px;
+  text-align: center;
+}
+
+#content {
+  padding-top: 20px;
+}
