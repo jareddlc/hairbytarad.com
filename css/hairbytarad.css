@@ -120,6 +120,8 @@ a, a:focus, a:hover {
 }
 
 .custom-icon {
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 24px;
 }
 
